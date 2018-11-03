@@ -8,20 +8,20 @@ import shutil
 from colors import *
 
 # Set your Android app ID
-p_app_id = "com.your.appid"
+p_app_id = "com.javarygames.jumpdown"
 
 # Update this to customize the module
 _config = {
-"Analytics"      : True,
-"AdMob"          : True,
-"Invites"        : True,
-"RemoteConfig"   : True,
+"Analytics"      : False,
+"AdMob"          : False,
+"Invites"        : False,
+"RemoteConfig"   : False,
 "Notification"   : True,
 "Storage"        : False,
 "Firestore"      : False,
 
 "Authentication" : False,
-"AuthGoogle"     : True,
+"AuthGoogle"     : False,
 "AuthFacebook"   : False,
 "AuthTwitter"    : False
 }
